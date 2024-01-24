@@ -22,6 +22,16 @@ html {
   -ms-overflow-x: hidden;
 }
 
+html::-webkit-scrollbar {
+  width: 0.3rem;
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #5e6e80;
+  border-radius: 1rem;
+}
+
 body, html {
   -webkit-text-size-adjust: 100%;
 }
